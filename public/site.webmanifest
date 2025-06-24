@@ -1,0 +1,21 @@
+{
+  "name": "Droppy",
+  "short_name": "Droppy",
+  "description": "Minimal donation link pages. Support made simple.",
+  "icons": [
+    {
+      "src": "/droppy-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/droppy-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#4ABBF4",
+  "background_color": "#FFFFFF"
+}
