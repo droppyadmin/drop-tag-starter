@@ -33,7 +33,7 @@ export default function Home() {
       </button>
 
       <motion.img
-        src="/droppy-icon-512x512.png"
+        src="/droppy-android-512x512.png"
         alt="Droppy Logo"
         width={120}
         height={120}
