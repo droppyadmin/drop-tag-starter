@@ -10,40 +10,41 @@ export default function Home() {
   }, [isDark])
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-6 py-12 bg-white dark:bg-gray-900 text-center transition-colors">
-      <button
-        onClick={() => setIsDark(!isDark)}
-        className="absolute top-4 left-4 text-sm text-gray-500 dark:text-gray-300 hover:underline"
-      >
-        {isDark ? '☀️ Light mode' : '🌙 Dark mode'}
-      </button>
+    <main className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 transition-colors px-4 py-12">
+      <div className="w-full max-w-md bg-white dark:bg-gray-800 shadow-xl rounded-2xl p-8 text-center space-y-6 transition-all">
+        <button
+          onClick={() => setIsDark(!isDark)}
+          className="absolute top-4 left-4 text-sm text-gray-500 dark:text-gray-300 hover:underline"
+        >
+          {isDark ? '☀️ Light mode' : '🌙 Dark mode'}
+        </button>
 
-      <img
-        src="/droppy-android-512x512.png"
-        alt="Droppy Logo"
-        width={120}
-        height={120}
-        className="mb-6 rounded-2xl shadow-xl"
-      />
+        <img
+          src="/droppy-android-512x512.png"
+          alt="Droppy Logo"
+          className="w-24 h-24 mx-auto rounded-xl shadow-lg"
+        />
 
-      <h1 className="text-4xl font-extrabold text-gray-800 dark:text-white mb-4 tracking-tight">
-        Droppy
-      </h1>
+        <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white">
+          Droppy
+        </h1>
 
-      <p className="text-lg text-gray-600 dark:text-gray-300 max-w-md mb-6 leading-relaxed">
-        Every drop counts. Minimal donation link pages. Support made simple.
-      </p>
+        <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+          Every drop counts. Minimal donation link pages. <br />
+          Support made simple.
+        </p>
 
-      <a
-        href="https://droppy.to/your-link"
-        className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition-colors"
-      >
-        Create Your DropTag
-      </a>
+        <a
+          href="https://droppy.to/your-link"
+          className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition"
+        >
+          Create Your DropTag
+        </a>
 
-      <footer className="mt-10 text-sm text-gray-400 dark:text-gray-500">
-        &copy; {new Date().getFullYear()} Droppy. All rights reserved.
-      </footer>
+        <p className="text-xs text-gray-400 dark:text-gray-500 mt-4">
+          &copy; {new Date().getFullYear()} Droppy. All rights reserved.
+        </p>
+      </div>
     </main>
   )
 }
