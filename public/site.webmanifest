@@ -2,20 +2,31 @@
   "name": "Droppy",
   "short_name": "Droppy",
   "description": "Minimal donation link pages. Support made simple.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#36D6AE",
   "icons": [
     {
       "src": "/droppy-icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "192x192"
     },
     {
       "src": "/droppy-icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/droppy-apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any"
+    },
+    {
+      "src": "/droppy-webclip-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
     }
-  ],
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#4ABBF4",
-  "background_color": "#FFFFFF"
+  ]
 }
