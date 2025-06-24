@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       { url: '/droppy-favicon.ico', type: 'image/x-icon' },
     ],
     apple: [
-      { url: '/droppy-apple-icon-180x180.png', sizes: '180x180', type: 'image/png' },
+      { url: '/droppy-apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
       { rel: 'icon', url: '/droppy-icon-192x192.png' },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       { rel: 'msapplication-TileImage', url: '/droppy-mstile-150x150.png' },
       { rel: 'icon', url: '/droppy-mstile-310x310.png' },
       { rel: 'apple-touch-icon', url: '/droppy-webclip-128x128.png' },
-    ]
+    ],
   },
   manifest: '/site.webmanifest',
 }
