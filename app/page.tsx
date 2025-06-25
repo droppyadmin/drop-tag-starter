@@ -38,7 +38,7 @@ export default function Home() {
   href="https://droppy.to/your-link"
   className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-2xl shadow-lg transition-colors"
 >
-  Create Your DropTag
+  Create Your ShortLink for Donation
 </a>
 
 
