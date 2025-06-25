@@ -35,11 +35,12 @@ export default function Home() {
         </p>
 
         <a
-          href="https://droppy.to/your-link"
-          className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-full shadow-md transition"
-        >
-          Create Your DropTag
-        </a>
+  href="https://droppy.to/your-link"
+  className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-2xl shadow-lg transition-colors"
+>
+  Create Your DropTag
+</a>
+
 
         <p className="text-xs text-gray-400 dark:text-gray-500 mt-4">
           &copy; {new Date().getFullYear()} Droppy. All rights reserved.
