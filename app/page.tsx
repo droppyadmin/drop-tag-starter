@@ -34,7 +34,7 @@ export default function Home() {
           Support made simple.
         </p>
 
-        <<a
+        <a
   href="https://droppy.to/your-link"
   className="inline-block bg-droppy-light dark:bg-droppy-dark text-droppy-text font-semibold py-2 px-6 rounded-full shadow-droppy dark:shadow-droppyDark transition-all hover:scale-105"
 >
